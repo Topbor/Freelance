@@ -1,0 +1,78 @@
+#section1{
+    height: 79vh;
+    position:relative;
+}
+body{
+    height: 100vh;
+}
+.k{
+    width:70%;
+    position:absolute;
+    left:50%;
+    top:40%;
+    transform: translate(-50%, -50%);  
+}
+.article{
+    text-align: center;
+}
+.btns{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+    justify-content: center;
+    
+}
+.btns a{
+	border-radius:10px;
+    padding:12px;
+    padding-left: 20px;
+	text-decoration: none;
+	color:black;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	margin-right: 30px;
+    transition: 1s;
+    width:180px;
+    text-align: center;
+}
+.btns a p{
+	margin-top: 0;
+	font-family: 'Raleway', sans-serif;
+	margin-bottom: 0;
+}
+.btns a div small{
+	font-size: 10px;
+	font-family: 'Lato', sans-serif;
+}
+.btns a div i{
+	font-size: 36px;
+}
+.nujno{
+	padding-left: 10px;
+}
+#play{
+border:1px solid black;
+}
+#apple{
+	background-color: #ff3f40;
+}
+.btns a:hover{
+	background-color: #ff3f40;
+    color:white;
+    text-decoration: none;
+}
+h1{
+    padding-bottom: 70px;
+}
+.nujno{
+	padding-top: 7px;
+}
+.title {
+    font-size: 50px;
+    margin-top:50px;
+}
